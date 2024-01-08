@@ -1,5 +1,5 @@
 rm -rf .repo/local_manifests
-rm-rf device/oneplus/sm6375-common
+rm -rf device/oneplus/sm6375-common
 echo " Clone trees local manifest "
 #Clone trees local manifest
 git clone https://github.com/projectelixeroscar/local_manifest.git --depth 1 -b main .repo/local_manifests
