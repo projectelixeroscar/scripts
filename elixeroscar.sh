@@ -13,7 +13,6 @@ echo "-----------------------"
 echo " remove local manifest "
 echo "-----------------------"
 rm -rf .repo
-rm -rf *
 echo "Initialise the project elixer UNO"
 repo init --depth=1 -u https://github.com/Project-Elixir/manifest -b UNO
 echo " repo sync project elixer "
