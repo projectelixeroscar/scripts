@@ -1,6 +1,9 @@
 ```bash
 sudo apt install rsync -y && cd crave && ./crave devspace
 ```
+```bash
+cd derpfest14
+```
 
 ```bash
 crave run --no-patch "rm -rf scripts && git clone https://github.com/projectelixeroscar/scripts.git && chmod u+x scripts/elixeroscar.sh && ./scripts/elixeroscar.sh "
