@@ -1,4 +1,8 @@
 rm -rf .repo/local_manifests
+rm -rf .repo/local_mqnifest
+repo init --depth=1 -u https://github.com/Project-Elixir/manifest -b UNO
+repo sync -f
+rm -rf .repo/local_manifests
 rm -rf device/oneplus/sm6375-common
 echo " Clone trees local manifest "
 #Clone trees local manifest
