@@ -18,7 +18,7 @@ rm -rf vendor/oneplus/sm6375-common
 rm -rf hardware/oplus
 #Clone trees local manifest
 git clone https://github.com/projectelixeroscar/local_manifest.git --depth 1 -b main .repo/local_manifests
-repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$
 #remove rm -rf hardware/google/pixel/kernel_headers
 git clone https://www.opencode.net/romdumprx/oplus_camera.git -b 14.0 vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
