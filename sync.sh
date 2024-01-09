@@ -16,7 +16,9 @@ rm -rf vendor/oneplus/oscar
 rm -rf vendor/oplus/camera
 rm -rf vendor/oneplus/sm6375-common
 rm -rf hardware/oplus
+rm -rf hardware/custom/interfaces
 #Clone trees local manifest
+git clone https://github.com/PixelOS-AOSP/hardware_custom_interfaces.git hardware/custom/interfaces
 git clone https://github.com/projectelixeroscar/local_manifest.git --depth 1 -b main .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$
 #remove rm -rf hardware/google/pixel/kernel_headers
