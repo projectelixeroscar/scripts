@@ -17,7 +17,9 @@ rm -rf .repo/local_manifests
 #rm -rf vendor/oneplus/sm6375-common
 #rm -rf hardware/oplus
 #rm -rf hardware/custom/interfaces
-rm -rf system/extras
+rm -rf bootable/recovery
+
+git clone https://github.com/Evolution-X/bootable_recovery bootable/recovery
 #Clone trees local manifest
 #git clone https://github.com/PixelOS-AOSP/hardware_custom_interfaces.git hardware/custom/interfaces
 #git clone https://github.com/projectelixeroscar/device_oneplus_oscar.git device/oneplus/oscar
@@ -26,7 +28,7 @@ rm -rf system/extras
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_oscar.git vendor/oneplus/oscar
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_sm6375-common.git vendor/oneplus/sm6375-common
 #git clone https://github.com/projectelixeroscar/hardware_oplus.git hardware/oplus
-git clone https://github.com/DerpFest-AOSP/system_extras.git system/extras
+#git clone https://github.com/DerpFest-AOSP/system_extras.git system/extras
 #remove rm -rf hardware/google/pixel/kernel_headers
 #git clone https://www.opencode.net/romdumprx/oplus_camera.git -b 14.0 vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
