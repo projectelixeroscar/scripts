@@ -1,23 +1,27 @@
+#!/bin/bash
+
+echo
+echo "--------------------------------------"
+echo "    derpfest14 14.0 Buildbot          "
+echo "                  by                  "
+echo "            ajaysinghsati             "
+echo "--------------------------------------"
+echo
+#Remove local manifest
 rm -rf .repo/local_manifests
-rm -rf .repo/local_mqnifest
-repo init --depth=1 -u https://github.com/Project-Elixir/manifest -b UNO
-repo sync -f
-rm -rf .repo/local_manifests
+rm -rf device/oneplus/oscar
 rm -rf device/oneplus/sm6375-common
-echo " Clone trees local manifest "
+rm -rf kernel/oneplus/sm6375
+rm -rf vendor/oneplus/oscar
+rm -rf vendor/oplus/camera
+rm -rf vendor/oneplus/sm6375-common
+rm -rf hardware/oplus
 #Clone trees local manifest
 git clone https://github.com/projectelixeroscar/local_manifest.git --depth 1 -b main .repo/local_manifests
-echo " sync the trees local manifest "
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
-echo " hardware/google/pixel/kernel_headers "
+#remove rm -rf hardware/google/pixel/kernel_headers
+git clone https://www.opencode.net/romdumprx/oplus_camera.git -b 14.0 vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
-
-echo " envsetup "
-source build/envsetup.sh
-echo  " lunch command "
-lunch aosp_oscar-user
-export TZ=Asia/Dhaka
-echo "-------------------------------------------"
-echo " lets start the build Project-Elixer-oscar "
-echo "-------------------------------------------"
-mka bacon
+# Run build script 
+chmod u+x scripts/build.sh
+./scripts/build.sh
