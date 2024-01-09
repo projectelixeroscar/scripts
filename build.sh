@@ -1,9 +1,8 @@
 #!/bin/bash
 #envsetup
-$device = oscar
 source build/envsetup.sh
 # lunch command 
-lunch aosp_$device-userdebug
+lunch aosp_oscar-userdebug
 export TZ=Asia/Dhaka
 #make command
 mka bacon
