@@ -19,7 +19,7 @@ rm -rf .repo/local_manifests
 #rm -rf hardware/custom/interfaces
 rm -rf bootable/recovery
 
-git clone https://github.com/PixelOS-AOSP/bootable_recovery.git bootable/recovery
+git clone https://github.com/DerpFest-AOSP/bootable_recovery.git bootable/recovery
 #Clone trees local manifest
 #git clone https://github.com/PixelOS-AOSP/hardware_custom_interfaces.git hardware/custom/interfaces
 #git clone https://github.com/projectelixeroscar/device_oneplus_oscar.git device/oneplus/oscar
