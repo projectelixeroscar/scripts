@@ -17,20 +17,20 @@ echo
 
 #rm -rf .repo/local_manifests
 #rm -rf device/oneplus/oscar
-rm -rf device/oneplus/sm6375-common
+#rm -rf device/oneplus/sm6375-common
 #rm -rf kernel/oneplus/sm6375
 #rm -rf vendor/oneplus/oscar
 #rm -rf vendor/oplus/camera
 #rm -rf vendor/oneplus/sm6375-common
 #rm -rf hardware/oplus/KeyHandler
 #rm -rf hardware/custom/interfaces
-#rm -rf bootable/recovery
+rm -rf bootable/recovery
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
-#git clone https://github.com/DerpFest-AOSP/bootable_recovery.git bootable/recovery
+git clone https://github.com/Project-Elixir/bootable_recovery.git bootable/recovery
 #Clone trees local manifest
 #git clone https://github.com/PixelOS-AOSP/hardware_custom_interfaces.git hardware/custom/interfaces
 #git clone https://github.com/projectelixeroscar/device_oneplus_oscar.git device/oneplus/oscar
-git clone https://github.com/projectelixeroscar/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
+#git clone https://github.com/projectelixeroscar/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
 #git clone https://github.com/projectelixeroscar/android_kernel_oneplus_sm8350.git kernel/oneplus/sm6375
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_oscar.git vendor/oneplus/oscar
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_sm6375-common.git vendor/oneplus/sm6375-common
