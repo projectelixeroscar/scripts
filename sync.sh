@@ -8,12 +8,12 @@ echo "            ajaysinghsati             "
 echo "--------------------------------------"
 echo
 #Remove local manifest
-git clone https://github.com/akhilnarang/scripts.git script
-chmod u+x script/setup/android_build_env.sh
-./script/setup/android_build_env.sh
-echo "--------check version"
-sudo apt-get update
-sudo apt-get install e2fsprogs
+#git clone https://github.com/akhilnarang/scripts.git script
+#chmod u+x script/setup/android_build_env.sh
+#./script/setup/android_build_env.sh
+#echo "--------check version"
+#sudo apt-get update
+#sudo apt-get install e2fsprogs
 
 #rm -rf .repo/local_manifests
 #rm -rf device/oneplus/oscar
