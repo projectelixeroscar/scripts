@@ -36,7 +36,7 @@ rm -rf system/extras
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_oscar.git vendor/oneplus/oscar
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_sm6375-common.git vendor/oneplus/sm6375-common
 #git clone https://github.com/projectelixeroscar/hardware_oplus.git hardware/oplus
-git clone https://github.com/Project-Elixir/system_extras.git system/extras
+git clone https://github.com/projectelixeroscar/system_extras.git system/extras
 #remove rm -rf hardware/google/pixel/kernel_headers
 #git clone https://www.opencode.net/romdumprx/oplus_camera.git -b 14.0 vendor/oplus/camera
 rm -rf hardware/google/pixel/kernel_headers
