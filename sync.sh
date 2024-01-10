@@ -8,6 +8,13 @@ echo "            ajaysinghsati             "
 echo "--------------------------------------"
 echo
 #Remove local manifest
+git clone https://github.com/akhilnarang/scripts.git script
+chmod u+x script/setup/android_build_env.sh
+./script/setup/android_build_env.sh
+echo "--------check version"
+sudo apt-get update
+sudo apt-get install e2fsprogs
+
 #rm -rf .repo/local_manifests
 #rm -rf device/oneplus/oscar
 #rm -rf device/oneplus/sm6375-common
@@ -15,7 +22,7 @@ echo
 #rm -rf vendor/oneplus/oscar
 #rm -rf vendor/oplus/camera
 #rm -rf vendor/oneplus/sm6375-common
-rm -rf hardware/oplus/KeyHandler
+#rm -rf hardware/oplus/KeyHandler
 #rm -rf hardware/custom/interfaces
 #rm -rf bootable/recovery
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
