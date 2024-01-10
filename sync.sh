@@ -17,9 +17,9 @@ rm -rf .repo/local_manifests
 #rm -rf vendor/oneplus/sm6375-common
 #rm -rf hardware/oplus
 #rm -rf hardware/custom/interfaces
-rm -rf bootable/recovery
-
-git clone https://github.com/DerpFest-AOSP/bootable_recovery.git bootable/recovery
+#rm -rf bootable/recovery
+git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
+#git clone https://github.com/DerpFest-AOSP/bootable_recovery.git bootable/recovery
 #Clone trees local manifest
 #git clone https://github.com/PixelOS-AOSP/hardware_custom_interfaces.git hardware/custom/interfaces
 #git clone https://github.com/projectelixeroscar/device_oneplus_oscar.git device/oneplus/oscar
