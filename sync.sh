@@ -20,7 +20,8 @@ echo
 #rm -rf device/oneplus/sm6375-common
 #rm -rf kernel/oneplus/sm6375
 #rm -rf vendor/oneplus/oscar
-rm -rf vendor/oplus/camera
+rm -rf hardware/oplus/KeyHandler
+#rm -rf vendor/oplus/camera
 #rm -rf vendor/oneplus/sm6375-common
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 #Clone trees local manifest
