@@ -26,7 +26,7 @@ rm -rf device/oneplus/sm6375-common
 #git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 #Clone trees local manifest
 git clone https://github.com/projectelixeroscar/device_oneplus_oscar.git device/oneplus/oscar
-git clone https://github.com/projectelixeroscar/device_oneplus_sm6375-old.git device/oneplus/sm6375-common
+git clone https://github.com/projectelixeroscar/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
 #git clone https://github.com/projectelixeroscar/android_kernel_oneplus_sm8350.git kernel/oneplus/sm6375
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_oscar.git vendor/oneplus/oscar
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_sm6375-common.git vendor/oneplus/sm6375-common
