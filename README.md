@@ -2,6 +2,9 @@
 sudo apt install rsync -y && cd crave && ./crave devspace
 ```
 ```bash
+./crave devspace
+```
+```bash
 cd derpfest14
 ```
 
