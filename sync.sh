@@ -21,7 +21,7 @@ rm -rf device/oneplus/sm6375-common
 #rm -rf system/extras
 #rm -rf kernel/oneplus/sm6375
 #rm -rf vendor/oneplus/oscar
-#rm -rf hardware/oplus/KeyHandler
+rm -rf hardware/oplus/KeyHandler
 #rm -rf vendor/oplus/camera
 #rm -rf prebuilts/clang/host/linux-x86/clang-r450784d
 #rm -rf vendor/oneplus/sm6375-common
