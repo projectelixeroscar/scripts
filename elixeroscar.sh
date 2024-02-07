@@ -15,7 +15,7 @@ echo "-----------------------"
 rm -rf .repo
 rm -rf *
 echo "Initialise the project elixer UNO"
-repo init --depth=1 -u https://github.com/phhgsi/manifest -b UNO
+repo init --depth=1 -u https://github.com/Project-Elixir/manifest -b UNO
 echo " repo sync project elixer "
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 echo " remove local manifest "
