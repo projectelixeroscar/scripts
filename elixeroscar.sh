@@ -17,7 +17,7 @@ rm -rf *
 echo "Initialise the project elixer UNO"
 repo init --depth=1 -u https://github.com/Project-Elixir/manifest -b UNO
 echo " repo sync project elixer "
-repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j16(nproc --all)
 echo " remove local manifest "
 #Remove local manifest
 rm -rf .repo/local_manifests
