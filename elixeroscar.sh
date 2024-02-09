@@ -12,8 +12,8 @@ echo
 echo "-----------------------"
 echo " remove local manifest "
 echo "-----------------------"
-rm -rf .repo
-rm -rf *
+#rm -rf .repo
+#rm -rf *
 echo "Initialise the project elixer UNO"
 repo init --depth=1 -u https://github.com/projectelixeroscar/manifest -b UNO
 #wget "https://raw.githubusercontent.com/xc112lg/crdroid10.1/main/elixir.xml"
