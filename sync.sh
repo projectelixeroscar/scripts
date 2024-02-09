@@ -39,7 +39,10 @@ echo
 #git clone https://gitlab.com/Mrick343/proprietary_vendor_oplus_camera.git -b 13.0 vendor/oplus/camera
 #rm -rf hardware/google/pixel/kernel_headers
 rm -rf vendor/pixel-framework
-git clone https://github.com/Project-Elixir/vendor_pixel-framework.git vendor/pixel-framework
+git clone https://github.com/projectelixeroscar/vendor_pixel-framework.git vendor/pixel-framework
+rm -rf vendor/pixel-framework/SystemUIGoogle/proto
+rm -rf vendor/pixel-framework/proto
+
 # Run build script 
 chmod u+x scripts/build.sh
 ./scripts/build.sh
