@@ -13,7 +13,6 @@ echo "-----------------------"
 echo " remove local manifest "
 echo "-----------------------"
 rm -rf .repo
-rm -rf *
 echo "Initialise the project elixer UNO"
 repo init --depth=1 -u https://github.com/projectelixeroscar/manifest -b UNO
 #wget "https://raw.githubusercontent.com/xc112lg/crdroid10.1/main/elixir.xml"
@@ -36,6 +35,7 @@ git clone https://github.com/projectelixeroscar/hardware_oplus.git hardware/oplu
 git clone https://github.com/projectelixeroscar/vendor_pixel-framework.git -b UNO vendor/pixel-framework
 echo " hardware/google/pixel/kernel_headers "
 rm -rf hardware/google/pixel/kernel_headers
+rm -rf vendor/pixel-framework/SystemUIGoogle/proto
 
 echo " envsetup "
 source build/envsetup.sh
