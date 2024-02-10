@@ -33,10 +33,10 @@ git clone https://github.com/projectelixeroscar/android_kernel_oneplus_sm8350.gi
 git clone https://github.com/projectelixeroscar/vendor_oneplus_oscar.git vendor/oneplus/oscar
 git clone https://github.com/projectelixeroscar/vendor_oneplus_sm6375-common.git vendor/oneplus/sm6375-common
 git clone https://github.com/projectelixeroscar/hardware_oplus.git hardware/oplus
-git clone https://github.com/projectelixeroscar/vendor_pixel-framework.git -b UNO vendor/pixel-framework
+#git clone https://github.com/projectelixeroscar/vendor_pixel-framework.git -b UNO vendor/pixel-framework
 echo " hardware/google/pixel/kernel_headers "
 rm -rf hardware/google/pixel/kernel_headers
-rm -rf vendor/pixel-framework/SystemUIGoogle/proto
+#rm -rf vendor/pixel-framework/SystemUIGoogle/proto
 
 echo " envsetup "
 source build/envsetup.sh
