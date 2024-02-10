@@ -23,7 +23,7 @@ repo sync -c -j16 --force-sync --no-clone-bundle --no-tags
 
 echo " remove local manifest "
 #Remove local manifest
-rm -rf .repo/local_manifests
+#rm -rf .repo/local_manifests
 echo " Clone trees local manifest "
 #Clone trees local manifest
 git clone https://github.com/projectelixeroscar/device_oneplus_oscar.git device/oneplus/oscar
