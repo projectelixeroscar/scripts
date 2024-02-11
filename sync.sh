@@ -38,8 +38,9 @@ echo
 #remove rm -rf hardware/google/pixel/kernel_headers
 #git clone https://gitlab.com/Mrick343/proprietary_vendor_oplus_camera.git -b 13.0 vendor/oplus/camera
 #rm -rf hardware/google/pixel/kernel_headers
-rm -rf vendor/aosp
-git clone https://github.com/projectelixeroscar/vendor_aosp.git vendor/aosp
+rm -rf vendor/qcom/opensource/vibrator
+#rm -rf vendor/aosp
+#git clone https://github.com/projectelixeroscar/vendor_aosp.git vendor/aosp
 #git clone https://github.com/projectelixeroscar/vendor_pixel-framework.git vendor/pixel-framework
 #rm -rf vendor/pixel-framework/SystemUIGoogle/proto
 #rm -rf vendor/pixel-framework/proto
