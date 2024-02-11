@@ -1,7 +1,8 @@
 #!/bin/bash
 #envsetup
-make clean
+
 . build/envsetup.sh
+make clean
 # lunch command 
 lunch aosp_oscar-user
 export TZ=Asia/Dhaka
