@@ -1,5 +1,6 @@
 #!/bin/bash
 #envsetup
+make clean
 . build/envsetup.sh
 # lunch command 
 lunch aosp_oscar-user
