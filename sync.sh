@@ -17,7 +17,7 @@ echo
 
 #rm -rf .repo/local_manifests
 #rm -rf device/oneplus/oscar
-#rm -rf device/oneplus/sm6375-common
+rm -rf device/oneplus/sm6375-common
 #rm -rf system/extras
 #rm -rf kernel/oneplus/sm6375
 #rm -rf vendor/oneplus/oscar
@@ -29,7 +29,7 @@ echo
 #Clone trees local manifest
 #git clone https://github.com/Evolution-X/system_extras.git system/extras
 #git clone https://github.com/projectelixeroscar/device_oneplus_oscar.git device/oneplus/oscar
-#git clone https://github.com/projectelixeroscar/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
+git clone https://github.com/projectelixeroscar/device_oneplus_sm6375-common.git device/oneplus/sm6375-common
 #git clone https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/clang-proton
 #git clone https://github.com/projectelixeroscar/android_kernel_oneplus_sm8350.git kernel/oneplus/sm6375
 #git clone https://github.com/projectelixeroscar/vendor_oneplus_oscar.git vendor/oneplus/oscar
