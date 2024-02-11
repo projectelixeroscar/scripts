@@ -26,6 +26,9 @@ echo " remove local manifest "
 #rm -rf .repo/local_manifests
 echo " Clone trees local manifest "
 #Clone trees local manifest
+rm -rf vendor/qcom/opensource/vibrator
+rm -rf vendor/aosp
+git clone https://github.com/projectelixeroscar/vendor_aosp.git vendor/aosp
 rm -rf device/oneplus/oscar
 git clone https://github.com/projectelixeroscar/device_oneplus_oscar.git device/oneplus/oscar
 rm -rf device/oneplus/sm6375-common
