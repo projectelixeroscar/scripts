@@ -40,6 +40,7 @@ echo
 #rm -rf hardware/google/pixel/kernel_headers
 #rm -rf vendor/qcom/opensource/vibrator
 #rm -rf vendor/aosp
+rm -rf vendor/pixel-framework
 #git clone https://github.com/projectelixeroscar/vendor_aosp.git vendor/aosp
 git clone https://github.com/projectelixeroscar/vendor_pixel-framework.git vendor/pixel-framework
 #rm -rf vendor/pixel-framework/SystemUIGoogle/proto
